@@ -13,11 +13,20 @@
   padding: 2rem;
   background-color: #303030;
 }
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #303030;
+}
 .h1 {
   font-size: 1.6rem;
   font-weight: bold;
   font-style: italic;
 }
-.link {
-  font-style: underline;
+.p {
+  margin-right: 1.2rem;
+  font-size: 0.8rem;
+  font-style: italic;
 }
