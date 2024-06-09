@@ -13,3 +13,11 @@
   padding: 2rem;
   background-color: #303030;
 }
+.h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.link {
+  font-style: underline;
+}

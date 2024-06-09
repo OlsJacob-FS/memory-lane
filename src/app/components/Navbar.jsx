@@ -7,8 +7,10 @@ import styles from "../page.module.css";
 export default function NavBar() {
   return (
     <nav className={styles.navbar}>
-      <h1>Memory Lane</h1>
-      <Link href="/">Home</Link>
+      <h1 className={styles.h1}>Memory Lane</h1>
+      <Link href="/" className={styles.h1}>
+        Home
+      </Link>
     </nav>
   );
 }

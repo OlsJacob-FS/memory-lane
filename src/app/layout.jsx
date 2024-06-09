@@ -1,11 +1,11 @@
 //Next imports
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 //css Imports
 import "./globals.css";
 import NavBar from "./components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {
   title: "Memory Lane",
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <NavBar />
         {children}
       </body>
