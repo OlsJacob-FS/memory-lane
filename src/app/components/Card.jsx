@@ -1,35 +1,24 @@
-//Mui imports
-import * as React from "react";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-//Next imports
+import React from "react";
+import { Card, CardHeader, CardBody } from "@nextui-org/react";
+import Image from "next/image";
 import Link from "next/link";
-export default function CardComponent(props) {
+
+export default function App(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt={props.alt}
-        height="140"
-        image={props.img}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {props.title}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {props.body}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">
-          <Link href="/information">Learn More</Link>
-        </Button>
-      </CardActions>
+    <Card className="py-4">
+      <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+        <h4 className="font-bold text-large">{props.title}</h4>
+        <p className="text-tiny uppercase font-bold contain">{props.body}</p>
+      </CardHeader>
+      <CardBody className="overflow-visible py-2">
+        <Image
+          alt="Card background"
+          className="object-cover rounded-xl"
+          src={props.image}
+          width={270}
+        />
+        <Link href={`/information/${props.id}`}>More Information</Link>
+      </CardBody>
     </Card>
   );
 }
