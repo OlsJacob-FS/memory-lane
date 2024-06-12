@@ -44,6 +44,7 @@
   font-size: 0.8rem;
   font-style: italic;
 }
+
 .articalLink {
   font-size: 1.5rem;
   font-weight: bold;
@@ -54,5 +55,25 @@
 .articalText {
   font-size: 1.3rem;
   line-height: 2.3rem;
-  word-spacing: 0.7rem;
+  word-spacing: 0.5rem;
+  margin-top: 1rem;
+}
+.articalSection {
+  display: flex;
+  gap: 2.2rem;
+}
+.btnLink {
+  margin: 3px;
+  padding: 7px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: #303030;
+}
+.cardStyle {
+  padding: 10px;
+  border-color: white;
+  border-radius: 10px;
+  background-color: #303030;
+  text-align: start;
+  margin: 10px;
 }
