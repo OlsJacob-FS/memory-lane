@@ -4,6 +4,7 @@ import nextJs from "../images/nextjs.jpeg";
 //Next JS image cite: https://miro.medium.com/v2/resize:fit:1000/1*v3XndYeIsBtk4CkpMf7vmA.jpeg
 import devImg from "../images/comp-unsplash.jpg";
 //https://unsplash.com/photos/two-black-flat-screen-computer-monitors-LJ9KY8pIH3E
+import budgetPro from "../images/budgetPro.png";
 const blogData = [
   {
     id: "one",
@@ -28,6 +29,14 @@ const blogData = [
     body: "Needed?",
     artical:
       "Leetcode is a coding question / problem solving website that develpers can use to grow their problem solving skills and practice coding interview questions as well. I have started doing the thirty-day javascript problem solving challenge. Each day there is a new problem to solve using code and your own skills to solve the problem at hand. The challenge starts with easy task to complete and progresses each day. I look forward to continue learning and completing more coding questions and problems.",
+  },
+  {
+    id: "four",
+    title: "Budget Pro App",
+    image: budgetPro,
+    body: "My current side Project",
+    artical:
+      "My Budget-Pro app was built following a tutorial on youtube to enhance my React JS development skills. While folliwing the tutorial on youtube I learned quite a bit. I learned more about styling, components, using images to style a webpage, and learning more about paths and routes using vite. Using props and different states allows this app to track a budget added by the user. The user defines their name which opens the budgeting app. The user is able to enter in a budget amount, for example their car payment. The user can then add the amount spent toward that payment which is tracked in a card component and displayed on the budget dashboard. ",
   },
 ];
 
