@@ -5,7 +5,7 @@ import nextJs from "../images/nextjs.jpeg";
 import devImg from "../images/comp-unsplash.jpg";
 //https://unsplash.com/photos/two-black-flat-screen-computer-monitors-LJ9KY8pIH3E
 import budgetPro from "../images/budgetPro.png";
-import reactNativeImg from "../images/reactNative.png";
+import reactNativeImg from "../images/reactnative.png";
 
 const blogData = [
   {
