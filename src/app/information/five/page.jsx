@@ -10,10 +10,10 @@ export default function One() {
   return (
     <main>
       <div className={styles.main}>
-        <h1>{blogData[3].title}</h1>
-        <Image src={blogData[3].image} height={500} />
+        <h1>{blogData[4].title}</h1>
+        <Image src={blogData[4].image} height={500} />
         <div className={styles.bodyContainer}>
-          <p className={styles.articalText}>{blogData[3].artical}</p>
+          <p className={styles.articalText}>{blogData[4].artical}</p>
         </div>
       </div>
     </main>

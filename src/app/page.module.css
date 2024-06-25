@@ -58,11 +58,19 @@
   line-height: 2.3rem;
   word-spacing: 0.5rem;
   margin-top: 1rem;
+  color: black;
+  padding: 1rem;
 }
 .articalSection {
+  align-items: center;
+  justify-content: center;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1250px;
   gap: 2.2rem;
 }
+
 .btnLink {
   margin: 3px;
   padding: 7px;
@@ -77,4 +85,8 @@
   background-color: #303030;
   text-align: start;
   margin: 10px;
+}
+.bodyContainer {
+  background-color: #d0d2d6;
+  margin-top: 15px;
 }

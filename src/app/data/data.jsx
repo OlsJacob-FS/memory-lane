@@ -5,6 +5,8 @@ import nextJs from "../images/nextjs.jpeg";
 import devImg from "../images/comp-unsplash.jpg";
 //https://unsplash.com/photos/two-black-flat-screen-computer-monitors-LJ9KY8pIH3E
 import budgetPro from "../images/budgetPro.png";
+import reactNativeImg from "../images/reactNative.png";
+
 const blogData = [
   {
     id: "one",
@@ -37,6 +39,14 @@ const blogData = [
     body: "My current side Project",
     artical:
       "My Budget-Pro app was built following a tutorial on youtube to enhance my React JS development skills. While folliwing the tutorial on youtube I learned quite a bit. I learned more about styling, components, using images to style a webpage, and learning more about paths and routes using vite. Using props and different states allows this app to track a budget added by the user. The user defines their name which opens the budgeting app. The user is able to enter in a budget amount, for example their car payment. The user can then add the amount spent toward that payment which is tracked in a card component and displayed on the budget dashboard. ",
+  },
+  {
+    id: "five",
+    title: "React-native",
+    image: reactNativeImg,
+    body: "Using React-Native",
+    artical:
+      "React Native has been a lot of fun to work with and figure out! I really enjoyed learning how to get the CRUD methods to work correctly while using the API I created for this class. Styling the components while making all of the components and screens work together was a bit of a challenge, however it was very rewarding when I managed to make it work correctly. I throughly enjoyed creating a mobile application and will continue to create side projects learning more about react native.",
   },
 ];
 

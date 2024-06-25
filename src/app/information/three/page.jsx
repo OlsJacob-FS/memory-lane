@@ -12,7 +12,9 @@ export default function One() {
       <div className={styles.main}>
         <h1>{blogData[2].title}</h1>
         <Image src={blogData[2].image} height={500} />
-        <p className={styles.articalText}>{blogData[2].artical}</p>
+        <div className={styles.bodyContainer}>
+          <p className={styles.articalText}>{blogData[2].artical}</p>
+        </div>
       </div>
     </main>
   );
