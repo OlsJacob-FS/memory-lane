@@ -6,6 +6,7 @@ import devImg from "../images/comp-unsplash.jpg";
 //https://unsplash.com/photos/two-black-flat-screen-computer-monitors-LJ9KY8pIH3E
 import budgetPro from "../images/budgetPro.png";
 import reactNativeImg from "../images/reactnative.png";
+import authImg from "../images/auth.png";
 
 const blogData = [
   {
@@ -47,6 +48,14 @@ const blogData = [
     body: "Using React-Native",
     artical:
       "React Native has been a lot of fun to work with and figure out! I really enjoyed learning how to get the CRUD methods to work correctly while using the API I created for this class. Styling the components while making all of the components and screens work together was a bit of a challenge, however it was very rewarding when I managed to make it work correctly. I throughly enjoyed creating a mobile application and will continue to create side projects learning more about react native.",
+  },
+  {
+    id: "six",
+    title: "Authentication Flow",
+    image: authImg,
+    body: "The Flow",
+    artical:
+      "I am struggling to fully understand the Authentication flow. I was struggling to understand how each piece connected with the other and came together in the end to display the user data was authenticated. This week I learned quite a bit of information and will need to continue to work with building more applications with a user authentication and tokens. This week I was feeling more confident and understaning the flow of the API and how to fetch the data to display it. ",
   },
 ];
 
